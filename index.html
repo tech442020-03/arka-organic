@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pure Honey – Buy Natural Honey Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff8ec;
+      color: #333;
+    }
+    header {
+      position: relative;
+      background: url('images/banner-1.png') center/cover no-repeat;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(12, 19, 11, 0.685);
+    }
+    header * {
+      padding-block: 10px;
+      position: relative;
+      z-index: 1;
+    }
+    header img{
+      max-width: 250px;
+    }
+    header h1, h2 {
+      margin-bottom: 10px;
+      font-size: 3rem;
+      margin: 0;
+      padding-top: 10px;
+      color: #fff8ec;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #fff8ec7e;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+    .product h3 {
+      margin: 10px 0;
+      color: #f77f00;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .product p {
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+    .product button {
+      background: #25D366;
+      color: #fff;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      cursor: pointer;
+       font-weight: bold;
+    }
+    .product button:hover {
+     
+      background: #1ebe5d;
+    }
+    .faq {
+      margin-top: 60px;
+    }
+    .faq h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #f77f00;
+    }
+    details {
+      background: #fff;
+      margin-bottom: 15px;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  
+  <img src="images/logo.png" alt="">
+  <!--
+  <img src="https://via.placeholder.com/180x80?text=Honey+Logo" alt="Honey Logo" style="max-width:180px;margin-bottom:15px;" />
+  -->
+  <h1>No heating, No treating </h1><h2> 100% Pure & Natural Honey</h2>
+
+
+  <p>Taste may vary depending upon seasonal flowering</p>
+</header>
+
+<div class="container">
+  <section class="products">
+
+
+    <div class="product" onclick="buyNow('250g')">
+
+      <img src="images/honey-250g.png"  alt="honey">
+     
+      <button >Buy on WhatsApp</button>
+    </div>
+    <div class="product" onclick="buyNow('500g')">
+ <img src="images/honey-500g.png"  alt="honey">
+      <button >Buy on WhatsApp</button>
+    </div>
+
+    <div class="product" onclick="buyNow('1kg')">
+<img src="images/honey-1kg.png"  alt="honey">
+      <button >Buy on WhatsApp</button>
+    </div>
+    <!-- 
+    <div class="product">
+      <h3>Honey – 100g</h3>
+      <p>Perfect for daily tasting and travel use.</p>
+      <button onclick="buyNow('100g')">Buy on WhatsApp</button>
+    </div>
+     <div class="product">
+      <h3>Honey – 750g</h3>
+      <p>Great value pack for honey lovers.</p>
+      <button onclick="buyNow('750g')">Buy on WhatsApp</button>
+    </div>   
+    <div class="product">
+      <h3>Honey – 2kg</h3>
+      <p>Bulk pack for families & businesses.</p>
+      <button onclick="buyNow('2kg')">Buy on WhatsApp</button>
+    </div>
+    -->
+  </section>
+
+  <section class="faq">
+    <h2>Honey – Uses & Benefits (FAQs)</h2>
+
+    <details>
+      <summary>What are the health benefits of honey?</summary>
+      <p>Honey boosts immunity, improves digestion, provides natural energy, and has antibacterial properties.</p>
+    </details>
+
+    <details>
+      <summary>Can honey be used daily?</summary>
+      <p>Yes. Consuming 1–2 teaspoons daily helps with metabolism, immunity, and overall wellness.</p>
+    </details>
+
+    <details>
+      <summary>Is honey good for skin and hair?</summary>
+      <p>Absolutely. Honey moisturizes skin, fights acne, and nourishes hair when used in masks.</p>
+    </details>
+
+    <details>
+      <summary>Can honey replace sugar?</summary>
+      <p>Yes. Honey is a healthier natural sweetener compared to refined sugar.</p>
+    </details>
+
+    <details>
+      <summary>Is this honey pure and chemical‑free?</summary>
+      <p>Yes. Our honey is 100% natural, raw, and free from preservatives or additives.</p>
+    </details>
+  </section>
+</div>
+
+<footer>
+  <p><strong>Contact Us</strong></p>
+<!-- <p>📞 Phone: +91 99999 99999</p> -->  
+  <p>💬 WhatsApp: +91 92351 62284</p>
+  <p>📧 Email:arkaorganic.life@gmail.com</p>
+  <p>© 2025 Arka Life. All rights reserved.</p>
+</footer>
+
+<script>
+  function buyNow(size) {
+    const phone = '919235162284'; // replace with your WhatsApp number
+    const message = `I want to buy this honey product of ${size} packaging`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  }
+</script>
+
+</body>
+</html>
